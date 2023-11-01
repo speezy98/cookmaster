@@ -1,0 +1,12 @@
+#!/bin/bash
+
+commit_msg_file=$(git rev-parse --git-dir)/COMMIT_EDITMSG
+commit_msg=$(cat "$commit_msg_file")
+
+# Vérifier le format du message de commit
+if ! echo "$commit_msg" | awk 'NR==1{if (length($0) >= 1 && length($0) <= 50) first_line_valid=1} NR==2{if ($0 == "") second_line_valid=1} END{if (first_line_valid && second_line_valid) exit 0; else {print "Erreur : Le format du message de commit est incorrect."; exit 1}}'; then
+    exit 1
+fi
+
+
+
