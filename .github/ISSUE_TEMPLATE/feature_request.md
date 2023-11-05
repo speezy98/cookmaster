@@ -1,18 +1,17 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: quelle Nouvelle fonctionnalité?
+title: Quelle nouvelle fonctionnalité?
 labels: enhancement
-assignees: uvsq22008841
+assignees:
 
 ---
 
 ## Veuillez remplir tout le formulaire 
 
-**Liens utiles:**
-- [code of conduct](https://docs.github.com/fr/site-policy/github-terms/github-event-code-of-conduct)
+**Lien utile:**
+
 - [contributing](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
-- [readme](https://docs.github.com/fr/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
 
 **De quelle fonctionnalité souhaites tu nous faire part ?**

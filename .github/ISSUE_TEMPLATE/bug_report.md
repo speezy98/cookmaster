@@ -3,13 +3,13 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: uvsq22008841
+assignees: 
 
 ---
 
-**Decrire le bogue**
+**Décrire le bug**
 
-Une description claire et concise de ce qu'est le bogue.
+Une description claire et concise de ce qu'est le bug.
 
 **Pour le reproduire**
 
@@ -29,7 +29,7 @@ Une description claire et concise de ce que vous attendiez qu'il se produise.
 
 **Captures d'écran**
 
- ajoutez des captures d'écran pour expliquer votre problème.
+Ajoutez des captures d'écran pour expliquer votre problème.
 
 
 **informations supplémentaires**
